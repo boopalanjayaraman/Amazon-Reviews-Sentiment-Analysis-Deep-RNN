@@ -13,3 +13,5 @@ If we need to run it for full data set, we should change the code that looks lik
   `reviewsjson_part = reviewsjson[:1280]`
 to
   `reviewsjson_part = reviewsjson`
+
+While doing so, the `epoch` hyper parameter should also be adjusted accordingly, to for ex: 10. The other parameters such as batch size, lstm size, and embedding matrix size can also be adjusted.
